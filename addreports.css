@@ -1,0 +1,70 @@
+.form{
+	width: 800px;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	margin: 10px auto;
+	padding: 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.form fieldset{
+	border: none;
+}
+
+
+.form input[type="text"]:focus,
+.form input[type="date"]:focus,
+.form input[type="datetime"]:focus,
+.form input[type="email"]:focus,
+.form input[type="number"]:focus,
+.form input[type="search"]:focus,
+.form input[type="time"]:focus,
+.form input[type="url"]:focus,
+.form input[type="month"]:focus,
+.form textarea:focus,
+.form select:focus{
+	background: #d2d9dd;
+}
+
+.form select{
+	height:35px;
+}
+
+.form- .number {
+	background: #1abc9c;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+
+.form input[type="submit"],
+.form input[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: #868686;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+
+.form input[type="submit"]:hover,
+.form input[type="button"]:hover
+{
+	background: #4b4b4b;
+}

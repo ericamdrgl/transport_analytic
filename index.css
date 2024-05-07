@@ -1,0 +1,47 @@
+body {
+    margin: 0%;
+    background-color: pink (206, 206, 206);
+    display:contents;
+}
+
+header {
+    padding-left: 10px;
+    margin-bottom: 30px;
+    background-color: #8b7087;
+    display: flex;
+    box-shadow: 0 3px 3px 0 rgb(134, 68, 108);
+}
+
+.session {
+    margin-left:30px ;
+    height: 40%;
+    width: 70%;
+}
+
+table {
+    width: 100%;
+}
+
+
+.button {
+    display: flex;
+    justify-content: end;
+}
+
+
+.button a:link, a:visited {
+    margin: 5px 10px;
+    font-size: 16px;
+    width: auto;
+    background-color: #745c6e;
+    border: 2px solid rgb(38, 45, 38);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 7px 25px;
+    text-decoration: none;
+    box-shadow: 0 3px 3px 0 rgb(134, 68, 108);
+  }
+  
+  a:hover, a:active {
+    background-color: #783f6c;
+  }
